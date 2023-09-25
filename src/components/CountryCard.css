@@ -1,0 +1,32 @@
+.card {
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 16px;
+}
+
+.card-label-container {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.card-flag {
+    height: 20px;
+}
+
+.card-label {
+    font-weight: bold;
+}
+
+.card-content {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+.card-item {
+    flex: 1 1 400px;
+    display: flex;
+    justify-content: space-between;
+}
